@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">We help you find your way!</string>
+    <string name="by_line">powered by Pushpendra Kumar Singh</string>
+
+    <!-- values for on board slider -->
+    <!-- Title -->
+
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add A Missing Place</string>
+    <string name="forth_slide_title">Sit Back And Enjoy</string>
+    <string name="search_text">search...</string>
+
+    <!--Description -->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.  </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="airports">Airports</string>
+    <string name="shops">Shops</string>
+    <string name="featured_loc">All Featured Locations</string>
+    <string name="featured_loc_desc">All the locations that are featured and have the top demand in the town.</string>
+    <string name="most_viewed_locations"> Most Viewed</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="categories">Categories</string>
+    <string name="home">HOME</string>
+    <string name="search">SEARCH</string>
+    <string name="catogeries">ALL CATEGORIES</string>
+    <string name="place">ADD MISSING PLACES</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="car_rent">Car Rent</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="retailer_heading">Grow Your Business</string>
+    <string name="retailer_tag_line">We will Help You Grow Your Business through our online services!</string>
+    <string name="join_button">JOIN US</string>
+    <string name="work">How We Work?</string>
+    <string name="usar_name">enter usarname</string>
+    <string name="password">enter password</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_user_name">user name</string>
+    <string name="enter_email">Enter E-mail id</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="otp_code_text">CO\nDE</string>
+    <string name="otp_verification_text">verification</string>
+    <string name="otp_description_text">Enter the OTP\nsent on +918299355938</string>
+    <string name="fgt_pass_desc">provide your e-mail for which\n you want to reset your\n password.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

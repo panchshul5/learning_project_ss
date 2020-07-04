@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="8dp">
+        
+        <ImageView
+            android:id="@+id/im_mcdonalds"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mcdonald_img"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mcdonald's"
+            android:layout_toRightOf="@id/im_mcdonalds"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"/>
+
+        <RatingBar
+            android:id="@+id/rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@id/im_mcdonalds"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/tv_title"
+            android:rating="4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_desc"
+            android:text="sdfjfkjdfkjf asdfsdf dfjsdljf dfjdjf fjkdfjd fjdfksdjf  dfj fd  fdfjsdfj  dfdkfjdfjd dfdfj"
+            android:layout_toRightOf="@id/im_mcdonalds"
+            android:layout_below="@id/rb"
+            android:padding="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/im_mcdonalds" />
+
+        
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

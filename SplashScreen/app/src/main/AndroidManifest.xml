@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscreen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LocationOwner.RetailerDashboard"></activity>
+        <activity android:name=".comman.ForgetPasswordSuccessMessage" />
+        <activity android:name=".comman.SetNewPassword" />
+        <activity android:name=".comman.MakeSelection" />
+        <activity android:name=".comman.Forget_password" />
+        <activity android:name=".comman.VerifyOTP" />
+        <activity android:name=".comman.SignUp3rdClass" />
+        <activity android:name=".comman.SignUp2ndClass" />
+        <activity android:name=".comman.SignUp" />
+        <activity android:name=".comman.Login" />
+        <activity android:name=".comman.LoginSignUp" />
+        <activity android:name=".user.AllCatogeries" />
+        <activity android:name=".comman.OnBoarding" />
+        <activity android:name=".user.UserDashboard" />
+        <activity android:name=".comman.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
